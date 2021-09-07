@@ -152,6 +152,11 @@ body {
   padding: 2.5rem;
   color: var(--color-grey-light-4); }
 
+.gallery {
+  display: flex; }
+  .gallery__photo {
+    width: 100%; }
+
 .container {
   max-width: 120rem;
   background-color: var(--color-grey-light-1);
@@ -180,6 +185,6 @@ body {
   justify-content: space-between; }
 
 .hotel-view {
-  background-color: #fff;
+  background-color: var(--color-grey-light-4);
   flex: 1;
   height: 80rem; }
